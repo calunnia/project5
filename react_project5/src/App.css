@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  padding-top: 16px;
+
+}
+
+button{
+  padding: 10px;
+  margin: 10px;
+}
+img{
+  height: 300px;
+}
+
+.pictures{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width:50%;
+  height:450px;
+}
+
+.single_recipe_wrapp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border: 2px solid bisque;
+}
+
+.form{
+  padding: 20px;
+  background-color: cadetblue;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  position:absolute; left:230px; top:250px; z-index:999;
+  min-width: 70%;
+}
+
+input{
+  padding: 10px;
+  
+ 
+}
+.where{
+  display: flex;
+  margin: auto;
+  
+  padding: 10px;
+}
+.choose{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.delivery{
+  padding: 10px;
+}
